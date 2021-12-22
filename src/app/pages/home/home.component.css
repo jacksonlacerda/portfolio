@@ -15,6 +15,30 @@ i:hover {
   cursor: pointer;
 }
 
+[aria-label] {
+  position: relative;
+}
+  
+[aria-label]::after {
+  content: attr(aria-label);
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0px;
+  z-index: 5000;
+  border-radius: 10px;
+  pointer-events: none;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 28px;
+  color: #61dafb;
+  background-color: #1e2a3a;
+}
+
+[aria-label]:hover::after {
+  display: block;
+}
+
 .name {
   font-size: 42px;
   margin-bottom: 15px;
