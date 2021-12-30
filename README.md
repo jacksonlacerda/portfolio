@@ -5,8 +5,8 @@
 <br>
 
 <p align="center">
-  <img alt="Portfolio" src=".github/portfolio-01.png" width="90%">
-  <img alt="Portfolio" src=".github/portfolio-02.png" width="90%">
+  <img alt="Portfolio" src=".github/portfolio-01.PNG" width="90%">
+  <img alt="Portfolio" src=".github/portfolio-02.PNG" width="90%">
 </p>
 
 ## Deploy do Projeto
